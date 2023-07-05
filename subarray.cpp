@@ -1,3 +1,7 @@
+#include<iostream>>
+#include<bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     void solve(vector<int>&nums, vector<pair<int, int>>output, vector<vector<pair<int, int>>>&ways, int index, int maxi, int mini)
