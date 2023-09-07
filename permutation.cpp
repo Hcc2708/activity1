@@ -6,7 +6,6 @@ void permutation(vector<string>&ans, string str, int index){
  {
     ans.push_back(str);
     return ;
-    
  }
  for(int i = index; i<str.size(); i++)
  {
@@ -23,5 +22,4 @@ int main(){
     {
         cout<<c<<" ";
     }
-
 }
